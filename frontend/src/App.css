@@ -1,41 +1,79 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Navbar CSS */
+.navbar {
+  display: flex;
+  background-color: #B20600 ;
+  border-radius: 15px 15px 15px 15px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.navbar .logo {
+  padding : 5px; 
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar .logo .logo-img {
+  border-radius: 30%;
+  height: 80px;
+  width: 80px;
+  margin: 5px 5px 5px 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.navbar .search{
+  align-self: center;
+  padding: 5px;
+  margin-left: auto;
+  width: 50%;
+  display: flex;
 }
 
-.card {
-  padding: 2em;
+.navbar .search .inp-search{
+  border-radius: 5px 0px 0px 5px;
+  height: 40px;
+  width: 100%;
+  background-color: #373535 ;
+  color: beige;
 }
 
-.read-the-docs {
-  color: #888;
+.navbar .search .search-btn{
+  border-radius: 0px 5px 5px 0px;
+  height: 44px;
+  width: 45px;
+  background-color: #373535 ;
+  color: beige;
+}
+
+.navbar .search .search-btn .fa .fa-search{
+  color: beige;
+  height: 20px;
+  width: 20px;
+}
+
+.navbar .dash-prof{
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar .dash-prof .dashboard{
+  align-self: center;
+  padding: 5px 5px 5px 5px;
+}
+
+.navbar .dash-prof .dashboard .btn-dashboard{
+  border-radius: 10%;
+  height: 30px;
+  width: auto;
+  background-color: #373535 ;
+  color: beige;
+}
+
+.navbar .dash-prof .profile {
+  align-self: center;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.navbar .dash-prof .profile .btn-profile{
+  border-radius: 10%;
+  height: 30px;
+  width: auto;
+  background-color: #373535 ;
+  color: beige;
 }
